@@ -14,3 +14,5 @@ This section contains reviewed literature for this project
 
 - Item Recommendation on Monotonic Behavior Chains
     - https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home
+- Matrix Factorization (with explicit ratings)
+    - https://blog.insightdatascience.com/explicit-matrix-factorization-als-sgd-and-all-that-jazz-b00e4d9b21ea
