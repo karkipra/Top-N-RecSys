@@ -13,4 +13,4 @@ This section contains reviewed literature for this project
 ##Reading Assignment (1/28/2020)
 
 - Item Recommendation on Monotonic Behavior Chains
-  -https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home
+    - https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home
