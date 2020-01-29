@@ -10,7 +10,7 @@ This section contains reviewed literature for this project
   - https://medium.com/radon-dev/als-implicit-collaborative-filtering-5ed653ba39fe
   - https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
 
-##Reading Assignment (1/28/2020)
+## Reading Assignment (1/28/2020)
 
 - Item Recommendation on Monotonic Behavior Chains
     - https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home
