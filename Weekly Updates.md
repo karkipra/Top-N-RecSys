@@ -33,3 +33,5 @@ User’s interaction often exhibit monotonic structure/pattern.
 We plan to build user-item rating matrix and run a basic CF on that.
 We also want to find the features of products and define a similarity function that can be used later to refine the recommendation list.
 We also need to look at the product metadata.
+### Tentative Project Goal: 
+-- Recommend useful, relevant, and DIVERSE items to users.
