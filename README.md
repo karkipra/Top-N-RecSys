@@ -20,8 +20,10 @@ The project uses the [Amazon Dataset](jmcauley.uscd.edu/data/amazon) courtesy of
 #### Cleaning
 
 
-- Used PySpark from Apache Spark to process the Dataset and create a training set with limited variables (Overall Rating, ReviewID, ProductID).
+- (Attempted using PySpark from Apache Spark) Used Python libraries Pandas and Numpy to process the Dataset and create a training set with limited variables (Overall Rating, ReviewID, ProductID).
   - Created a 2D matrix with these three variables.
+  - Analysis of data - trends of ratings
+- Incorporate metadata in the analysis (WIP)  
 
 ## Code
 
