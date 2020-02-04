@@ -28,7 +28,7 @@ User’s interaction often exhibit monotonic structure/pattern.
   How to model each user-item interactions along with the basic ratings matrix is one 
   of the preliminary step that we want to complete.
 
-![#1589F0]## Date: Feb 04, 2020
+## Date: Feb 04, 2020
 
 We plan to build user-item rating matrix and run a basic CF on that.
 We also want to find the features of products and define a similarity function that can be used later to refine the recommendation list.
