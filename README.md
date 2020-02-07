@@ -15,10 +15,9 @@ Collaborators:
 
 ## Dataset
 
-The project uses the [Amazon Dataset](jmcauley.uscd.edu/data/amazon) courtesy of Julian McAuley from UCSD.
+The project uses the [Amazon Dataset](https://nijianmo.github.io/amazon/index.html) courtesy of Julian McAuley from UCSD.
 
 #### Cleaning
-
 
 - (Attempted using PySpark from Apache Spark) Used Python libraries Pandas and Numpy to process the Dataset and create a training set with limited variables (Overall Rating, ReviewID, ProductID).
   - Created a 2D matrix with these three variables.
