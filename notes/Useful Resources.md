@@ -1,6 +1,6 @@
-# Literature
+# Useful Resources 
 
-This section contains reviewed literature for this project
+This section contains reviewed literature, documentation, and tasks for this project.
 
 ## Documentation
 
@@ -9,7 +9,7 @@ This section contains reviewed literature for this project
 - Sample Recommender System using ALS:
   - https://github.com/LaxmiChaudhary/Amzon-Product-Recommendation
 
-## Readings
+## Literature
 
 - Evaluation and State-of-the-art Techniques:
   - https://paperswithcode.com/task/recommendation-systems
