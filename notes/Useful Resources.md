@@ -2,6 +2,13 @@
 
 This section contains reviewed literature for this project
 
+## Documentation
+
+- Microsoft Recommender Systems:
+  - https://github.com/microsoft/recommenders
+- Sample Recommender System using ALS:
+  - https://github.com/LaxmiChaudhary/Amzon-Product-Recommendation
+
 ## Readings
 
 - Evaluation and State-of-the-art Techniques:
