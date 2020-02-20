@@ -40,14 +40,22 @@ We also need to look at the product metadata.
 
 Have run the ALS model and done a basic evaluation. However, this only predicts the potential ratings. We want to incorporate metadata and reviewText. 
 
-### Tentative Project Goal: 
+### Notes: 
 - Sort by prediction for the particular item
 - Look at [Julian Mcauley's website](https://cseweb.ucsd.edu/~jmcauley/) to see how the dataset has been used in the past.
 - Partition reviews into positive and negative reviews (5,4,3 +ve and 2,1 -ve)
    - Then find top `k` meaningful words in the review and find the relation to the product review. 
       - Positive and negative list of these words
    - Then find the same words in the metadata description of other products and give more weight to those products. 
+      - Create a Dictionary of words that have been used (tf-idf concept)
       - x column: top `k` words in the reviewText
       - y column: meaningful words in the metadata
       - multiply x+y with predicted Ratings
+      
+### Tentative Goals:
+
+- Dictionary to grouping of words.
+- Write a method that takes reviewerID and returns top-k positive and negative reviews.
+- Read recent papers and understand what JMcauly has done with the dataset. 
+- *If there is time* method given itemID, returns metadata of the item. 
 
