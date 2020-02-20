@@ -47,4 +47,7 @@ Have run the ALS model and done a basic evaluation. However, this only predicts 
    - Then find top `k` meaningful words in the review and find the relation to the product review. 
       - Positive and negative list of these words
    - Then find the same words in the metadata description of other products and give more weight to those products. 
+      - x column: top `k` words in the reviewText
+      - y column: meaningful words in the metadata
+      - multiply x+y with predicted Ratings
 
