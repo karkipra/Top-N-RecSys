@@ -54,8 +54,8 @@ Have run the ALS model and done a basic evaluation. However, this only predicts 
       
 ### Tentative Goals:
 
-- [] Dictionary to grouping of words.
-- [] Write a method that takes reviewerID and returns top-k positive and negative reviews.
-- [] Read recent papers and understand what JMcauly has done with the dataset. 
-- [] **If there is time** method given itemID, returns metadata of the item. 
+- [ ] Dictionary to grouping of words.
+- [ ] Write a method that takes reviewerID and returns top-k positive and negative reviews.
+- [ ] Read recent papers and understand what JMcauly has done with the dataset. 
+- [ ] **If there is time** method given itemID, returns metadata of the item. 
 
