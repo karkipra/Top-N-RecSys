@@ -6,6 +6,7 @@ This section contains reviewed literature, documentation, and tasks for this pro
 
 - Microsoft Recommender Systems:
   - https://github.com/microsoft/recommenders
+  - Documentation: https://microsoft-recommenders.readthedocs.io/en/latest/evaluation.html
 - Sample Recommender System using ALS:
   - https://github.com/LaxmiChaudhary/Amzon-Product-Recommendation
 
