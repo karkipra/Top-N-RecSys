@@ -68,4 +68,4 @@ Have the sentiments of review and summary done.
 - Now that we have sentiment score, we can model as below
    - \alpha x rating + \beta x sentiment
    - If this model improves MAP then keep it
-- By analysing the reviews, we aim to find the most impactful words or features of products that help buyers make their decision (e.g. strong keywords). 
+- By analysing the reviews, we aim to find the most impactful words or features of products that help buyers make their decision (e.g. strong keywords). This should help people trying to sell items - either bigram or trigram model. 
