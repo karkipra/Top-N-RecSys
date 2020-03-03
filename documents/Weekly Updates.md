@@ -59,3 +59,13 @@ Have run the ALS model and done a basic evaluation. However, this only predicts 
 - [ ] Read recent papers and understand what JMcauly has done with the dataset. 
 - [ ] **If there is time** method given itemID, returns metadata of the item. 
 
+## Date: Mar 3, 2020
+
+Have the sentiments of review and summary done. 
+
+### Notes: 
+
+- Now that we have sentiment score, we can model as below
+   - \alpha x rating + \beta x sentiment
+   - If this model improves MAP then keep it
+- By analysing the reviews, we aim to find the most impactful words or features of products that help buyers make their decision (e.g. strong keywords). 
