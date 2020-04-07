@@ -120,33 +120,6 @@ def json_write(dest_path = des_path):
 
 
 
-def data_reviewerID(reviewer_ID, d_path = des_path):
-    """
-    takes a reviewerID from the metadata and return the json associated with the item
-    
-    Parameters
-    ----------
-    reviewer_ID
-        a unique reviewer identifier to search within the metadata
-    d_path
-        the destination to the meta data file
-        default value is the global variable des_path because we want to get an information from the data that is changed
-
-    Returns
-    -------
-    None
-    """
-    save_reviewer_data = []
-    with open(d_path, 'r') as f:
-        for num, l in enumerate(f):
-            if num == line_number_limit:
-                break
-            if l["reviewerID"] == reviewer_ID:
-                save_reviewer_data.append(l)
-    return save_reviewer_data
-
-
-
 def metadata_itemID(itemID, m_path = meta_path):
     """
     takes an itemID from the metadata and return the json associated with the item
@@ -216,13 +189,13 @@ def model(alpha=0.3, beta=0.6, gamma=0.1, m_path = des_path):
 
 
 
-# what this does is read the json file from "path", apply the sentiment analysis, and store it to the "des_path"
-parse(path)
-json_write(des_path)
+# # what this does is read the json file from "path", apply the sentiment analysis, and store it to the "des_path"
+# parse(path)
+# json_write(des_path)
 
-### json_print(new_data, line_number_limit)
+# ### json_print(new_data, line_number_limit)
 
-# this reads from the des_path and apply the new score and prints it out
-model()
+# # this reads from the des_path and apply the new score and prints it out
+# model()
 
 
